@@ -31,8 +31,13 @@ The task is to create a simple REST API that will accept and validate a POST req
 -   Company is an alphanumeric string
 
 If the requested payload is wrong, the response should throw a generic BAD_REQUEST httpStatus (400). But in the server console, it should throw the actual validation result error.
+Screenshoot:
+![deskripsi](output/bad-request.png)
+
 
 After the request is handled properly, respond with the same object, but the property data should be shuffled.
+Screenshoot:
+![deskripsi](output/success-response.png)
 
 ## Solution
 
@@ -90,3 +95,6 @@ Example Response:
 
 ### Swagger
 Swagger documentation can be accessed at [http://localhost:3000/swagger/](http://localhost:3000/swagger/).
+
+Screenshoot:
+![deskripsi](output/swagger.png)

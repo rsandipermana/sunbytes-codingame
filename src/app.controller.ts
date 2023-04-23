@@ -31,6 +31,7 @@ export class AppController {
 
     if (errors.length > 0) {
       // Throw a BAD_REQUEST error with the validation result
+      console.log(errors);
       throw new HttpException(errors, HttpStatus.BAD_REQUEST);
     }
 
